@@ -9,11 +9,12 @@ const Footer = () => (
             <div className="row">
                 <div className="col-12">
                     <div className="footer-content">
+                      created by:
                         <a
-                            href="https://github.com/PrototypeInteractive/gatsby-react-boilerplate"
+                            href="https://medium.com/@bastifantasti"
                             target="_blank"
                             rel="noopener noreferrer">
-                            <Icon icon={ Github } width={ 24 } height={ 24 } fill="#fff" />
+                            Sebastian Felix Schwarz
                         </a>
                     </div>
                 </div>

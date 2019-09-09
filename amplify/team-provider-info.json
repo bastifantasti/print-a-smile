@@ -1,0 +1,14 @@
+{
+    "prod": {
+        "awscloudformation": {
+            "AuthRoleName": "print-a-smile-prod-20190907115542-authRole",
+            "UnauthRoleArn": "arn:aws:iam::505645663380:role/print-a-smile-prod-20190907115542-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::505645663380:role/print-a-smile-prod-20190907115542-authRole",
+            "Region": "eu-central-1",
+            "DeploymentBucketName": "print-a-smile-prod-20190907115542-deployment",
+            "UnauthRoleName": "print-a-smile-prod-20190907115542-unauthRole",
+            "StackName": "print-a-smile-prod-20190907115542",
+            "StackId": "arn:aws:cloudformation:eu-central-1:505645663380:stack/print-a-smile-prod-20190907115542/a80695e0-d155-11e9-af8c-06aac4edf424"
+        }
+    }
+}

@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-react-boilerplate",
+  "name": "Print-A-Smile",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,13 +13,15 @@
     "dev": "(shx --silent rm -rf public || shx true) && gatsby develop",
     "server": "cross-env NODE_ENV=development DEBUG=api nodemon server.js"
   },
-  "author": "Prototype Interactive",
+  "author": "Sebastian Felix Schwarz",
   "license": "MIT",
   "dependencies": {
     "basic-auth": "^2.0.1",
     "compression": "^1.7.3",
     "debug": "^4.1.1",
     "express": "^4.16.4",
+    "gatsby-source-graphcms": "^1.0.0-alpha.3",
+    "gatsby-source-graphql": "^2.1.12",
     "helmet": "^3.15.0",
     "react-helmet": "^5.2.0",
     "serve-static": "^1.13.2"
@@ -49,10 +51,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PrototypeInteractive/gatsby-react-boilerplate.git"
+    "url": "git+https://github.com:bastifantasti/print-a-smile.git"
   },
   "bugs": {
-    "url": "https://github.com/PrototypeInteractive/gatsby-react-boilerplate/issues"
+    "url": "https://github.com:bastifantasti/print-a-smile/issues"
   },
-  "homepage": "https://github.com/PrototypeInteractive/gatsby-react-boilerplate#readme"
+  "homepage": "https://github.com:bastifantasti/print-a-smile#readme"
 }

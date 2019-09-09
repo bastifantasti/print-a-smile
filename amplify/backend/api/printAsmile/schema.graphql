@@ -1,0 +1,8 @@
+type Content @model {
+  id: ID!
+  intro: String!
+  description: String
+  video: String
+  outtro: String
+  why: String
+}
