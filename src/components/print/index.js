@@ -22,10 +22,9 @@ const Print = () => (
   
     `}
     render={data => {
-      if (!data) {
+      if (!data.Print.getFlat) {
         return <p>Loading…</p>
       }
-      console.log('FLAT',data.Print.getFlat)
       const obj = data.Print.getFlat
 
     return(
